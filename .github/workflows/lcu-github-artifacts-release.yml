@@ -1,12 +1,10 @@
-name: fathym/fathym-platform-marketing-v2
+name: kcarrol/fathym-platform-marketing-v2
 
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
-  repository_dispatch:
-    types: [plasmic]  
   workflow_dispatch:
 
 permissions: write-all
